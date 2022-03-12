@@ -13,6 +13,8 @@ if %build% LSS 17763 (
 )
 
 REG QUERY HKU\S-1-5-19\Environment >NUL 2>&1
+powershell -NoProfile Start-Process -FilePath '%COMSPEC%' ^
+-ArgumentList '/c """!command!"""' -Verb RunAs 2>NUL
 IF %ERRORLEVEL% EQU 0 goto :START_SCRIPT
 
 echo =====================================================
