@@ -1,4 +1,4 @@
-OfflineInsiderEnroll
+OfflineInsiderEnroll - Changed
 --------------------
 
 ### Description
@@ -7,8 +7,9 @@ to the Windows Insider Program on machines not signed in with Microsoft Account.
 
 This script is compatible only with Windows 10 RS5 and later.
 
+A simple GUI Helper is under development. Check back later!
 ### Usage
-This script requires administrative priviliges to run. You can simply execute it
+This script requires administrative priviliges to run. You can simply choose "Yes" when UAC window appears or execute it
 by right clicking it > `Run as Administrator`.
 
 #### Installation and configuration changes
